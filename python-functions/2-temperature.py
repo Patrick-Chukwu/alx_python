@@ -1,7 +1,4 @@
 def convert_to_celsius(fahrenheit):
     result = ((fahrenheit - 32)/9)* 5
     round_result = round(result, 2)
-    if fahrenheit == 100:
-        print(result)
-    else:
-        print(round_result)
+    return round_result
