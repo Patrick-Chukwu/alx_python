@@ -1,6 +1,8 @@
 import add_0
-a = 1
-b = 3
-result = add(1, 3)
+
+if __name__ = "__main__":
+    a = 1
+    b = 3
+    result = add(a, b)
 
 print("{} +{} = {}".format(a, b, add()))
