@@ -9,11 +9,11 @@ if __name__ == "__main__":
     
     
         
-    elif (length > 1)
+    elif (length > 1):
         print("{} arguments:".format(length))
-        for (value in argv):
-            print("{}: {}".format(indexof(value), value))
+        for index in range(len(argv)):
+            print("{}: {}".format(index, argv[index]))
 
-    else (length == 0):
+    else: 
         print("0 arguments.")
 
