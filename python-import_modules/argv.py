@@ -1,1 +1,1 @@
-argv = "hello"
+argv = ""
