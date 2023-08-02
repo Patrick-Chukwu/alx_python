@@ -22,7 +22,7 @@ import sys
 def print_arguments(argv):
     num_arguments = len(argv) - 1
     plural = 's' if num_arguments != 1 else ''
-    print(f"Number of argument{plural}: {num_arguments}:", end=' ')
+    print(f"{num_arguments} argument{plural}:", end=' ')
     
     if num_arguments == 0:
         print(".", end='\n')
