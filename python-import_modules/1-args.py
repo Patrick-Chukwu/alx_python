@@ -25,9 +25,9 @@ def print_arguments(argv):
     print(f"{num_arguments} argument{plural}:")
     
     if num_arguments == 0:
-        print()
+        # print()
     else:
-        print()
+        # print()
         for i in range(1, len(argv)):
             print(f"{i}: {argv[i]}")
 
