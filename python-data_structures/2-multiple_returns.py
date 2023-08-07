@@ -12,7 +12,7 @@ def multiple_returns(sentence):
     if not sentence:
         return 0, None  # Return 0 for length and None for first character
     else:
-        first_char = sentence[0]
+        first = sentence[0]
     
     length = len(sentence)
-    return length, first_char
+    return length, first
