@@ -6,3 +6,4 @@ def square_matrix_simple(matrix[]):
                 print(" ", end = "")
             print("{:d}".format(element), end = "")
         print()
+    print(matrix)
