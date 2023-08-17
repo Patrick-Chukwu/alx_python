@@ -5,6 +5,6 @@ def update_dictionary(a_dictionary, key, value):
         print("{}: {} ".format(key, a_dictionary[key]))
     
     print("xx")
-    return update_dictionary
+    return a_dictionary
 
 
