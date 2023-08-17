@@ -17,10 +17,10 @@ def square_matrix_simple(matrix=[]):
         squared_matrix.append(squared_row)
 
     
+      
+    print(squared_matrix)
+    print(matrix)
     return squared_matrix
-  
-print(squared_matrix)
-print(matrix)
     # Print the squared matrix
     
 
