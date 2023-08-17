@@ -20,6 +20,6 @@ def square_matrix_simple(matrix=[]):
       
     
     return squared_matrix
-    # Print the squared matrix
+ 
     
 
