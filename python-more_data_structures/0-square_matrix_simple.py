@@ -1,4 +1,5 @@
 def square_matrix_simple(matrix[]):
+    square_matrix = []
     for row in enumerate(matrix):
         for col_index, element in enumerate(row):
             element  **= 2
@@ -6,4 +7,4 @@ def square_matrix_simple(matrix[]):
                 print(" ", end = "")
             print("{:d}".format(element), end = "")
         print()
-    print(matrix)
+    print()
