@@ -16,9 +16,10 @@ def square_matrix_simple(matrix=[]):
         # Add the squared row to the squared matrix
         squared_matrix.append(squared_row)
 
-    for row in squared_matrix:
-      print(row)
-    return squared_matrix
+    
+      
+    print(squared_matrix)
+    print(matrix)
     # Print the squared matrix
     
 
