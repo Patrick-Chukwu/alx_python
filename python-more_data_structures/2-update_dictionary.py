@@ -4,7 +4,7 @@ def update_dictionary(a_dictionary, key, value):
     for key in a_dictionary:
         print("{}: {}".format(key, a_dictionary[key]))
 
-    # return update_dictionary
+    print("xx")
     
 
 # def print_sorted_dictionary(my_dict):
@@ -20,7 +20,6 @@ def update_dictionary(a_dictionary, key, value):
 # print_sorted_dictionary(a_dictionary)
 
 
-a_dictionary = {"a": "a", "b": "b" , "c": "c", "d": "d", "e": "e"} 
-# key = "p"
-# value = "P"
-update_dictionary(a_dictionary, "b", "B" )
+# a_dictionary = {"a": "a", "b": "b" , "c": "c", "d": "d", "e": "e"} 
+
+# update_dictionary(a_dictionary, "b", "B" )
