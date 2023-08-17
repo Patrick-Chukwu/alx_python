@@ -1,1 +1,2 @@
-argv = None
+def argv():
+    return argv
