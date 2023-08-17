@@ -18,8 +18,7 @@ def square_matrix_simple(matrix=[]):
 
     
       
-    print(squared_matrix)
-    print(matrix)
+    
     return squared_matrix
     # Print the squared matrix
     
