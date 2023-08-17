@@ -5,7 +5,7 @@ def update_dictionary(a_dictionary, key, value):
         print("{}: {} ".format(key, a_dictionary[key]))
     
     print("xx")
-    
+    return
     # for key in a_dictionary:
     #     print("{}: {}".format(key, a_dictionary[key]))
 
