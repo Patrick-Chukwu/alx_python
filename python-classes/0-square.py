@@ -1,4 +1,5 @@
-
+"""
+This is a module in class"""
 class Square:
     """ This is a class with a private instance
     the size is the private instance
