@@ -1,5 +1,5 @@
 """An empty class"""
 class BaseGeometry:
-    """My BaseGeomery class"""
+    """My BaseGeometry class"""
     pass
     
