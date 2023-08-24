@@ -30,7 +30,9 @@ class Rectangle(BaseGeometry):
         self.integer_validator("height", height)
 
     def area(self):
-        """function Area"""
-        str = f"[Rectangle] {width}/{height}"
-        result = width * height
-        return str \n result
+        """Area function"""
+        return self.__width * self.__height
+
+    def __str__(self):
+        """A function str"""
+        return f"[Rectangle] {self.__width}/{self.__height}"
