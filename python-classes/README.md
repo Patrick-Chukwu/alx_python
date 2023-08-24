@@ -11,8 +11,8 @@ A subclass is a class that inherits properties and methods from its superclass. 
 
     `
  class Animals:
-    def __init__(self, name):
-        self.name = name
+   ` def __init__(self, name):
+        self.name = name`
 
     def speak(self):
         pass
@@ -25,7 +25,7 @@ class Cat(Animal):
     def speak(self):
         return "Meow!"
     
-#Creating instances of subclasses
+Creating instances of subclasses
 dog = Dog("Buddy")
 cat = Cat("Whiskers")
 
