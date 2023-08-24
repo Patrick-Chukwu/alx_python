@@ -33,4 +33,4 @@ class Rectangle(BaseGeometry):
         """function Area"""
         str = f"[Rectangle] {width}/{height}"
         result = width * height
-        return str result
+        return str \n result
