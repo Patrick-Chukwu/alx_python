@@ -15,7 +15,14 @@ class BaseGeometry:
             raise ValueError(f"{name} must be greater than 0")
         
 class Rectangle(BaseGeometry):
+    """A Rectangle subclass"""
     def __init__(self, width, height, name, value):
+        """
+        Define the init method and inherits from the super.
+        Arguments:
+            width
+            height
+        """
         super().__init__(name, value)
         self.__width = width
         self.__height = height
