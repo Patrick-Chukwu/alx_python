@@ -10,7 +10,7 @@ class Base:
         Arguments:
             id
         """
-        if id != 0:
+        if id != None:
             self.id = id
         else:
             __nb_objects += 1
