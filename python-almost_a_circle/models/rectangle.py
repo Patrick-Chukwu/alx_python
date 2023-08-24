@@ -1,3 +1,5 @@
+"""Imported from the Base class"""
+
 from models.base import Base
 
 """Imported from the Base class"""
