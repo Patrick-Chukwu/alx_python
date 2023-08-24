@@ -16,14 +16,14 @@ class BaseGeometry:
         
 class Rectangle(BaseGeometry):
     """A Rectangle subclass"""
-    def __init__(self, width, height, name, value):
+    def __init__(self, width, height):
         """
         Define the init method and inherits from the super.
         Arguments:
             width
             height
         """
-        
+        super().__init__(name, value)
         self.__width = 0
         self.__height = 0
         self.integer_validator("width", width)
