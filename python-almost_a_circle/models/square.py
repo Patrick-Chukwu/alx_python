@@ -7,11 +7,18 @@ from models.rectangle import Rectangle
 class Square(Rectangle):
     """A class module inheriting from Rectangle class"""
     def __init__(self, size, x=0, y=0, id=None):
-        super(id, width, height, x, y)
-        self.__size = size
+        super().__init__(id, size, size, x, y)
+ 
     
 
-    def __str__(self):
-        """A special method that prints a str"""
+    @property
+    def size(self):
+        return self.width
 
-        return f"[Square] ({self.id}) {self.__x}/{self.__y} - {self.size}"
+    @size.setter    
+    def size(self, value):
+        self.width = value
+        self.height = value
+
+    def __str__(self):
+        return f"[Square] ({self.id}) {self.x}/{self.y} - {self.width}"
