@@ -97,3 +97,7 @@ class Rectangle(Base):
 
         return f"[Rectangle] ({self.id}) {self.__x}/{self.__y} - {self.__width}/{self.__height}"
 
+    def update(self, *args):
+        """A method that updates by parsing arguments
+        """
+        return f"[Rectangle] ({self.id}) {self.__x}/{self.__y} - {self.__width}/{self.__height}"
