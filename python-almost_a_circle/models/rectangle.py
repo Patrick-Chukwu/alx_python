@@ -1,5 +1,6 @@
 """Imported from the Base class"""
 
+from typing import Any
 from models.base import Base
 
 
@@ -88,3 +89,9 @@ class Rectangle(Base):
     
         for _ in range(self.__height):
             print("#" * self.__width)
+
+    def __str__(self):
+        """A special method that prints a str"""
+
+        print(f"[Rectangle] ({id}) {x}/{y} - {width}/{height}")
+
