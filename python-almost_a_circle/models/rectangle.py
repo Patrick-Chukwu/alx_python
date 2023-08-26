@@ -90,6 +90,9 @@ class Rectangle(Base):
         for _ in range(self.__height):
             print("#" * self.__width)
 
+        for _ in range(self.__y):
+            print("$" * self.__x)
+
     def __str__(self):
         """A special method that prints a str"""
 
