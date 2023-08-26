@@ -64,3 +64,25 @@ class Rectangle(Base):
     def y(self, value):
         """A y setter"""
         self.__y = value
+
+    if type(width) is not int:
+        raise TypeError(f"width must be an integer")
+    elif width <= 0:
+        raise ValueError("width must be > 0")
+    
+    if type(height) is not int:
+        raise TypeError(f"height must be an integer")
+    elif height <= 0:
+        raise ValueError("height must be > 0")
+    
+    if type(x) is not int:
+        raise TypeError(f"x must be an integer")
+    elif x < 0:
+        raise ValueError("x must be >= 0")
+    
+    if type(y) is not int:
+        raise TypeError(f"y must be an integer")
+    elif y <= 0:
+        raise ValueError("y must be > 0")
+    
+    
