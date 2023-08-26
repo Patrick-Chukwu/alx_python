@@ -1,15 +1,13 @@
 """A class module inheriting from Rectangle class"""
 
-from typing import Any
-from models.base import Base
+
+
 from models.rectangle import Rectangle
 
 class Square(Rectangle):
     """A class module inheriting from Rectangle class"""
     def __init__(self, size, x=0, y=0, id=None):
-        super().__init__(id, size, size, x, y)
- 
-    
+        super().__init__(size, size, x, y, id)
 
     @property
     def size(self):
