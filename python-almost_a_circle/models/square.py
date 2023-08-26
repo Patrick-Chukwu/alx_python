@@ -9,8 +9,7 @@ class Square(Rectangle):
     def __init__(self, size, x=0, y=0, id=None):
         super(id, width, height, x, y)
         self.__size = size
-        self.__width = size
-        self.__height = size
+    
 
     def __str__(self):
         """A special method that prints a str"""
