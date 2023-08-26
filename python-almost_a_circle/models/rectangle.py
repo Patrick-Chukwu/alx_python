@@ -2,17 +2,13 @@
 
 from models.base import Base
 
-"""Imported from the Base class"""
 
 class Rectangle(Base):
-    """
-    A subclass Rectangle with arguments
-
-    
-    """
+    """ A subclass Rectangle with arguments    """
     def __init__(self, width, height, x=0, y=0, id=None):
         """
         A function that defines the subclass
+
         Arguments:
             width (int)
             height (int)
