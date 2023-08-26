@@ -87,12 +87,10 @@ class Rectangle(Base):
     def display(self):
         """A public method that prints in stdout"""
     
-        for _ in range(self.__height):
-            print("#" * self.__width)
+        for _ in range(self.__height, self.__y):
+            print("#" * self.__width and "$" * self.__x)
 
-        for _ in range(self.__y):
-            print("$" * self.__x)
-
+  
     def __str__(self):
         """A special method that prints a str"""
 
