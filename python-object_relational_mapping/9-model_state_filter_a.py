@@ -1,7 +1,7 @@
-"""
+'''
 a script that lists all State objects
 that contain the letter a from the database
-"""
+'''
 if __name__ == "__main__":
     from model_state import State, Base
     from sqlalchemy.orm import sessionmaker
