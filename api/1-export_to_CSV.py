@@ -42,6 +42,9 @@ def get_employee_info(employee_id):
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         writer.writeheader()
 
+try:
+    with open(str(id) + ".csv", 'r') as f:
+
         # Write TODO list data to the CSV file
         for todo in todos_data:
             task_completed_status = todo['completed']
@@ -54,6 +57,9 @@ def get_employee_info(employee_id):
             })
 
     print(f"Data exported to {csv_file_name}")
+        # Perform operations on the file
+except FileNotFoundError:
+    print(f"File '{str(id)}.csv' not found.")
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
