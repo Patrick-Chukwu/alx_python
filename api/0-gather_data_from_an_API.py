@@ -2,11 +2,11 @@ import requests
 import sys
 
 def get_employee_info(employee_id):
-    # Define the base URL for the API
-    base_url = 'https://jsonplaceholder.typicode.com'
+    # Define the  URL for the API
+    url = 'https://jsonplaceholder.typicode.com'
 
     # Create the URL for the employee's TODO list
-    todos_url = f'{base_url}/users/{employee_id}/todos'
+    todos_url = f'{url}/users/{employee_id}/todos'
 
     # Send a GET request to retrieve TODO list data
     todos_response = requests.get(todos_url)
@@ -16,7 +16,7 @@ def get_employee_info(employee_id):
         return
 
     # Create the URL for the employee's details
-    details_url = f'{base_url}/users/{employee_id}'
+    details_url = f'{url}/users/{employee_id}'
 
     # Send a GET request to retrieve employee details
     details_response = requests.get(details_url)
